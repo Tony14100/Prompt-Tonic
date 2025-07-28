@@ -1,26 +1,29 @@
+Конечно! Ниже обновлённый промт, в котором **зомби заменён на демона**, с сохранением стиля, структуры и атмосферы, но адаптированным под сверхъестественное, дьявольское существо:
 
-Основная сцена (Тема): Гиперреалистичное изображение лица демона крупным планом.
+---
 
-Персонаж(и): Один-единственный демон.
+* **Main Scene (Theme):** A close-up, hyper-realistic portrayal of a demon's infernal face, radiating ancient malice and otherworldly corruption.  
+* **Character(s):** A single, unearthly demon.  
+* **Appearance:** The face is a grotesque fusion of human and bestial traits — cracked, leathery skin resembling charred stone, with fissures glowing faintly with inner hellfire. Prominent, jagged bone ridges and horns emerging from the brow. Eyes are completely black voids with pinpricks of crimson light, pulsing faintly. No pupils — only endless hunger and cruelty. The nose is flattened or slit-like, with wisps of dark smoke curling from the nostrils. The mouth is unnaturally wide, filled with rows of needle-like, obsidian teeth; a long, forked tongue flicks out, slick with viscous, glowing saliva. Veins pulse with dark energy, appearing as cracked, luminous fissures beneath the skin.  
+* **Emotion:** Malevolent intelligence, predatory calm, and sadistic amusement — a being that delights in suffering, exuding pure evil and ancient wrath.  
+* **Clothing & Accessories:** None visible — focus exclusively on the face.  
+* **Pose & Action:** Static, locked in a slow, unnerving smirk; eyes fixed directly on the viewer, as if sensing their soul.  
+* **Environment:** None — the background is a formless, abyssal void, perhaps faintly shimmering with distant embers or falling ash.  
+* **Foreground:** None — absolute focus on the face.  
+* **Background:** Deeply blurred, dark, and chaotic — like a storm-wracked netherworld, but out of focus to emphasize the subject.  
+* **Lighting:** Harsh, dramatic, and unnatural — illuminated from within by a deep, pulsing crimson glow emanating from the cracks in the skin. A secondary, cold, angular light source from the front highlights texture, while a faint hellish backlight outlines the horns and contours, creating a halo of menace.  
+* **Effects (FX):** Subtle wisps of sulphurous smoke rising from the mouth and eyes; faint heat distortion around glowing fissures; micro-details of ash-like skin flakes and supernatural decay. Slight emissive glow on cracks and eyes.  
+* **Composition & Camera:**  
+  * **Angle:** Direct eye-level, creating an intimate, confrontational tension.  
+  * **Framing:** Extreme close-up, filling the frame with the demon’s face — from just above the horns to below the jawline.  
+  * **Lens:** Macro lens, capturing every scale, crack, and droplet of infernal saliva.  
+  * **Focus & DOF:** Razor-sharp focus on the eyes and teeth, with extremely shallow depth of field — the horns and edges of the face blur slightly into the void.  
+* **Color Palette & Mood:** Dominated by deep blacks, charred umbers, and ashen greys, accented with glowing crimson, sulphur yellow, and bruised violet. Contrast is extreme — darkness pierced by hellish light. Mood: Terrifying, occult, oppressive, infernal.  
+* **Style & Render:**  
+  * **Art Style:** Ultrarealistic, photorealistic, cinematic horror with elements of dark fantasy and theological dread.  
+  * **Detail:** Micro-detailed, hyper-textured, forensic-level realism blended with supernatural elements — every pore, crack, and glint of saliva rendered in obsessive detail.  
+  * **Render Engines (for inspiration):** Unreal Engine 5, Octane Render, Redshift, V-Ray — leveraging subsurface scattering for glowing tissue, emissive shaders for inner fire, and volumetric smoke.
 
-Внешний вид: Невероятная детализация лица: обожженная, потрескавшаяся кожа адского оттенка с видимыми, замысловатыми светящимися венами, глубокими трещинами и участками обугленной плоти. Впалые, огненно-красные глаза со светящимися зрачками. Искаженный, зияющий рот, обнажающий заостренные, как бритва, зубы и раздвоенный язык. Рога, вырастающие из черепа, с замысловатой текстурой. Видимая костная структура под адской плотью.
+---
 
-Эмоция: Злобный, всепоглощающий взгляд, выражение вечных мук и ненависти, безмолвный крик проклятия.
-
-Одежда и аксессуары: Не видны, фокус исключительно на лице.
-
-Поза и действие: Статичный, прямой взгляд, слегка приоткрытый рот, из которого вырываются струйки дыма.
-
-Окружение: Отсутствует, фон должен быть полностью размыт или представлять собой простую, темную, неописуемую пустоту, чтобы подчеркнуть лицо.
-
-Передний план: Отсутствует, фокус исключительно на лице.
-
-Фон: Сильно размытый, темный, нечеткий фон для обеспечения максимального фокуса на лице.
-
-Освещение: Резкое, драматичное и направленное освещение от одного, невидимого источника (возможно, адского пламени), создающее глубокие тени и подчеркивающее каждую ужасную деталь текстуры кожи. Контровой свет для выделения контуров.
-
-Эффекты (FX): Тонкие, почти незаметные струйки дыма или пепла вокруг лица, экстремальная детализация текстуры, легкое подповерхностное рассеивание на адской плоти.
-
-Композиция и камера:
-
-Ракурс: Прямой, на уровне глаз, смотря
+Этот промт подойдёт для генерации изображения демона, который выглядит не просто страшно, а как существо из глубин ада — с акцентом на реализм, детализацию и психологическое воздействие.
