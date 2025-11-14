@@ -1,16 +1,48 @@
-    Write a complete, production-ready Python script for a Hugging Face Spaces app using Gradio.   
+You are an expert senior Python engineer and Hugging Face Spaces maintainer. Produce two files: a single-file production-ready Gradio app (app.py) and requirements.txt. The deliverable must be ready to drop into a new Hugging Face Space and run on first launch.
 
-        Use the latest stable versions of Gradio and any required libraries (e.g., transformers, torch, PIL, etc.).  
-        Ensure the code runs without errors on Hugging Face Spaces on the first launch.  
-        Include proper error handling, type hints (optional but preferred), and clear docstrings.  
-        Use a minimal and efficient structure—no unnecessary dependencies.  
-        The app should load quickly and be suitable for a demo or portfolio project.  
-        Prefer GPU acceleration if available, but fall back gracefully to CPU.  
-        Follow Hugging Face Spaces best practices (e.g., avoid heavy startup operations unless cached).  
-        Include a requirements.txt or specify dependencies inline if needed.  
-        The interface should be clean, responsive, and user-friendly.  
-        If using a model, load it only once (e.g., with @gradio.cache or module-level loading).
-        Output the full code and, if relevant, the requirements.txt.
+SPECIFICATIONS
+- Frameworks & versions:
+  - Use the latest stable Gradio. Keep other dependencies minimal (transformers, torch, pillow) only if required.
+  - In requirements.txt, pin major versions (e.g., gradio>=X.Y,<X+1) and add comments where appropriate.
+
+- App behavior:
+  - Implement a small demo task (choose one): image classification, text generation, or image-to-image — pick a lightweight HF model suitable for demo/portfolio; if using a heavy model, use a small sample model (e.g., distilbert/case or a tiny vision model) and explain how to replace it.
+  - Load models/tokenizers **once** (module-level or `@gradio.cache`), and avoid reloading per-inference.
+  - Use GPU if available (torch.cuda.is_available()) and fall back to CPU.
+  - Do NOT perform blocking heavy downloads at import time; prefer lazy load with a clear progress state in UI.
+  - Add request input validation and helpful error messages on UI.
+
+- Code quality:
+  - Provide type hints and docstrings.
+  - Add try/except at top-level inference to capture and log exceptions with `traceback`.
+  - Use Python logging (not prints) and set sensible logging level.
+  - Keep file self-contained (except dependencies listed in requirements.txt).
+  - Add a short Deployment Notes block at top describing any HF model access tokens or repo settings required.
+
+- UI/UX:
+  - Clean, responsive Gradio interface with meaningful labels, examples, and a compact layout.
+  - Show device and model load status on the UI.
+  - Include a small sample input and an explanation of outputs.
+
+- Output format:
+  - Return exactly two code blocks in the assistant response: full `app.py` and `requirements.txt` contents.
+  - No additional prose or explanation after the code blocks.
+
+ACCEPTANCE CRITERIA (automated/manual tests)
+1. Fresh HF Space with Python 3.10 (or default on HF) runs `app.py` and serves the UI.
+2. On first user action, model loads (status shown) and inference runs without raising exceptions.
+3. If GPU exists, inference runs on CUDA device; otherwise runs on CPU.
+4. Model is not reloaded between inferences.
+5. `requirements.txt` installs successfully on Spaces (no conflicting packages).
+
+TEST CASES (to be used by reviewer)
+- Launch Space; check "Model status: Not loaded" message.
+- Click "Run" with sample input; check status becomes "Loading model..." then "Ready — device: cuda:0" or "cpu".
+- Run inference multiple times; measure response time and confirm no repeated model re-download/log entries.
+- Submit invalid input (e.g., empty text or unsupported file) — UI must show a friendly error message, not crash.
+
+If anything is ambiguous, make a reasonable assumption and document it in a short comment at the top of app.py. Focus on reliability, clarity, and minimal startup cost.
+   
          
 
      
