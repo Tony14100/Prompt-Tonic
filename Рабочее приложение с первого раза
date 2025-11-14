@@ -1,0 +1,16 @@
+    Write a complete, production-ready Python script for a Hugging Face Spaces app using Gradio.   
+
+        Use the latest stable versions of Gradio and any required libraries (e.g., transformers, torch, PIL, etc.).  
+        Ensure the code runs without errors on Hugging Face Spaces on the first launch.  
+        Include proper error handling, type hints (optional but preferred), and clear docstrings.  
+        Use a minimal and efficient structure—no unnecessary dependencies.  
+        The app should load quickly and be suitable for a demo or portfolio project.  
+        Prefer GPU acceleration if available, but fall back gracefully to CPU.  
+        Follow Hugging Face Spaces best practices (e.g., avoid heavy startup operations unless cached).  
+        Include a requirements.txt or specify dependencies inline if needed.  
+        The interface should be clean, responsive, and user-friendly.  
+        If using a model, load it only once (e.g., with @gradio.cache or module-level loading).
+        Output the full code and, if relevant, the requirements.txt.
+         
+
+     
